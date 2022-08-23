@@ -1,0 +1,38 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.ventana-chat{
+    position: fixed;
+    max-width:240px;
+    right: 50px;
+    bottom: 10px;
+    background-color:white;
+
+}
+
+.ventana-chat-content{
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.mensajes-enviados{
+    background-color: blue;
+    color: white;
+}
+.mensajes-recibidos{
+    background-color:turquoise;
+    color: black;
+}
+
+.div-mensaje-enviado{text-align: right}
+.div-mensaje-recibido{text-align: left}
+
+.ventana-chat-submit{
+    background-color:yellowgreen;
+    max-width: 50px;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px;
+}
