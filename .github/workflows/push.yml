@@ -1,4 +1,4 @@
-name: el Deploy de la pagina
+name: Deploy de la pagina
 on: 
   push:
     branches:
